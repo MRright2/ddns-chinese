@@ -54,7 +54,7 @@ WANIPSITE="https://v4.ipv6-test.com/api/myip.php"
 if [ "$CFRECORD_TYPE" = "A" ]; then
   :
 elif [ "$CFRECORD_TYPE" = "AAAA" ]; then
-  WANIPSITE="https://v4.ipv6-test.com/api/myip.php"
+  WANIPSITE="https://v6.ipv6-test.com/api/myip.php"
 else
   echo "$CFRECORD_TYPE specified is invalid, CFRECORD_TYPE can only be A(for IPv4)|AAAA(for IPv6)"
   exit 2
